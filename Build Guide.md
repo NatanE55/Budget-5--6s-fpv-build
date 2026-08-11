@@ -69,4 +69,26 @@ For the cleanest final assembly and efficient troubleshooting, adhere to this sp
 ### Phase 5: Pre-Flight Safety Configuration
 ![Powered FC Bench Check](media/FC_config.jpeg)
 1.  **Bench Power Test:** Connect via USB to verify FC power. Connect via Smoke Stopper + 6S LiPo to ensure the ESC tines and VTX initiates successfully.
-2.  **Betaflight Config:** Configure Ports (UART1 for SmartAudio, UART2 for Serial Rx), set Receiver Provider to `CRSF`, and verify motor direction before installing top plate.
+2.  **Betaflight Config:** Configure Ports (UART1 for SmartAudio, UART2 for Serial Rx), set Receiver Provider to `CRSF`, and verify motor direction before 
+
+### Phase 6: Finalizing & Top-Plate Assembly
+![Full Stack Isometric View](media/Open%20front.jpeg)
+1. **Clean Cable Management:** Before closing the frame, use small zip ties or heat shrink to secure all receiver, camera, and VTX wiring harnesses neatly to the stack's standoffs. Ensure no loose wires can touch the carbon frame or vibrate into the ESC's MOSFETs.
+2. **Top-Plate Install:** Once the wiring is verified and secure, install the MARK5 top plate using threadlocker on all frame screws. Tighten the standoffs firmly to ensure mechanical rigidity.
+
+### Phase 7: Validated Pre-Flight Checklist
+![Completed Quad (Desk view)](media/Final%20Front%20Desktop.jpeg)
+With the build functionally complete, the final safety checks must be performed. Do **NOT** install propellers yet.
+
+1. **Physical Integrity:** Check every frame screw again for blue threadlocker residue and proper tightness. Verify motor mounts are secure.
+2. **Failsafe Check:** Connect the quad to Betaflight. Ensure props are OFF. Turn on your transmitter. Go to the Betaflight "Receiver" tab. Verify your transmitter inputs (throttle, roll, etc.) match the bars. Now, **turn off your transmitter.** Verify the throttle bar drops to 0 and the armor switch disarms automatically.
+3. **VTX Check:** Attach antennas. Apply power via smoke stopper. Verify that you have a clear, interference-free video feed in your goggles on the expected channel. Ensure the camera angle is adjustable.
+4. **Motor Direction (Props OFF):** Under the Betaflight "Motors" tab, use a single 1S-compatible battery or smoke stopper to gently spin Motor 1. Verify it spins the correct direction for your configuration (e.g., Prop-Out). Repeat for Motors 2, 3, and 4. Use the ESC configuration tool (e.g., BLHeliSuite32) if any motor direction needs to be reversed.
+
+### Phase 8: Maiden Flight Ready
+![Flight-Ready Quad (with battery)](media/Final%20Build%20With%20Bat.jpeg)
+The documentation phase is complete; the quad is now physically and functionally validated for flight.
+
+*   **Battery Mounting:** Place the 6S LiPo battery on the top plate. Use the provided high-quality battery strap and/or adhesive silicone battery pad to secure the battery firmly. Ensure it cannot shift and that the power lead can connect neatly.
+*   **Final VTX and RX Antenna Mount:** Re-check that the SMA bulkhead connector is fully tightened on the TPU tail mount and that the video antenna is secure. Ensure your diversity ELRS receiver antennas are positioned according to best practices (e.g., T-antenna layout) and clear of potential carbon frame shielding.
+*   **Propellers On:** **Only at the flying field:** Install props, verify correct direction, and ensure lock nuts are tight. Your custom budget 5" build is flight-ready.installing top plate.
