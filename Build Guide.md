@@ -4,7 +4,7 @@
 
 This repository documents the complete lifecycle of a budget-friendly, high-performance 5" FPV drone. This build leverages a robust analog video system, ExpressLRS control, and 6S power to deliver a versatile freestyle machine.
 
-This guide provides a logical sequence for assembly, reference documentation, and configuration. It is designed to be used in conjunction with the [README.md](../README.md) and [WIRING.md](../hardware/WIRING.md) files.
+This guide provides a logical sequence for assembly, reference documentation, and configuration. It is designed to be used in conjunction with the [README.md](../README.md) and [WIRING](../Wiring) files.
 
 ---
 
