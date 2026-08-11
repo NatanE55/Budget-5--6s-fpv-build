@@ -1,26 +1,29 @@
-# Custom 5" 6S FPV Freestyle Quad
+# Custom 5" 6S MARK5 FPV Freestyle Quad
 
-A custom-built 5-inch 6S analog FPV drone designed for freestyle performance, low-latency control, and budget-optimized hardware.
+![Custom MARK5 5-inch Build](media/Final%20Front%20Desktop.jpeg)
 
----
+## Overview
+This repository documents the complete hardware layout and assembly of a budget-optimized 5-inch 6S FPV drone. The build is structured around a standalone F405 flight controller, a 60A 4-in-1 ESC, 5.8GHz analog video, and a low-latency ExpressLRS 2.4GHz control link.
 
-## Technical Specifications
+## Repository Navigation
+* **[Build Guide](Build%20Guide.md):** Step-by-step mechanical assembly, power filtering, stack wiring, and Betaflight configuration.
+* **[Bill of Materials (BOM)](BOM.md):** Complete hardware list required to reproduce this build.
 
-| Component | Part Description | Specs / Details |
-| :--- | :--- | :--- |
-| **Frame** | MARK5 225mm Carbon Fiber | 5" Freestyle Geometry (Mark5 Red accents) |
-| **Flight Controller** | F405 Flight Controller | 30x30 Stack Layout |
-| **ESC** | 60A 4-in-1 BLHeli ESC | Handles 6S burst currents |
-| **Motors** | EMAX Samguk Series Shu 2306 | 1750KV (Optimized for 6S) |
-| **Propellers** | Gemfan 51466 V2 | 3-Blade / Tri-Blade (Midnight Gray) |
-| **Receiver (RX)** | SpeedyBee Nano 2.4G RX | ExpressLRS (ELRS) Protocol |
-| **Video Transmitter (VTX)** | SpeedyBee TX800 | 5.8GHz, 48CH (25mW–800mW, PitMode) |
-| **Camera** | 9IMOD 1800TVL 5MP CMOS | 2.1mm Lens, IR Block |
-| **Battery** | Gaoneng GNB 1100mAh 6S | 22.8V 60C LiPo / LiHV (XT60) |
+## Build Showcase
 
----
+| Open Electronics Stack | Flight-Ready Configuration |
+| :---: | :---: |
+| ![Open Top View](media/open%20Top.jpeg) | ![Final Build with Battery](media/Final%20Build%20With%20Bat.jpeg) |
 
-## Key Hardware Notes
-* **Power System:** Runs a 6S power configuration using 1750KV motors paired with an 1100mAh LiPo for high efficiency and minimal voltage sag.
-* **Control Link:** Uses ExpressLRS (ELRS) 2.4GHz via serial UART for low latency and long-range link stability.
-* **Video Feed:** Analog 5.8GHz setup driven by the SpeedyBee TX800 VTX for high output power and thermal management.
+## Core Specifications
+| Component | Details |
+| :--- | :--- |
+| **Frame** | MARK5 225mm Carbon Fiber |
+| **Flight Controller** | F405 (30.5x30.5mm mounting) |
+| **ESC** | 60A 4-in-1 BLHeli_S |
+| **Motors** | EMAX Samguk Series Shu 2306 1750KV |
+| **Propellers** | Gemfan 51466 V2 3-Blade |
+| **Receiver** | SpeedyBee Nano 2.4G ELRS |
+| **Video Transmitter** | SpeedyBee TX800 (5.8GHz Analog) |
+| **Camera** | 9IMOD 1800TVL 5MP CMOS |
+| **Power** | 6S LiPo (1100mAh recommended) |
