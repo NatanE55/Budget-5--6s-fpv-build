@@ -3,7 +3,7 @@
 This directory contains the documentation, image references, and video demonstration for the servo-driven payload release mechanism.
 
 ## Mechanism States & Demonstration
-🎥 **[Watch the Payload Drop Mechanism Demo](Payload_Media/Payload.mp4)**
+<video src="Payload_Media/Payload.mp4" controls="controls" width="100%"></video>
 
 | Drop Mechanism (Loaded) | Drop Mechanism (Released) |
 | :---: | :---: |
