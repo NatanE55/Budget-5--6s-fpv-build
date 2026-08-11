@@ -30,7 +30,7 @@ For the cleanest final result and easiest troubleshooting, follow this build ord
 *   **C. Route Wires:** Protect motor wires along the arms using heat shrink or TPU guards to prevent "prop strikes."
 
 ### Phase 2: ESC & Power Stage
-![Capacitor Mounting](../media/photos/Frame%20Bottom.jpeg)
+![Capacitor Mounting](../media/Frame%20Bottom.jpeg)
 *   **A. Power Leads:** Solder the main XT60 connector leads (Red VBAT+, Black GND-) to the main input pads of the 60A 4-in-1 ESC.
 *   **B. Capacitor Installation:** Solder the 35V 1000uF Low-ESR capacitor **directly** across the main VBAT+ and GND- pads of the ESC. The stripe on the capacitor indicates the negative side. This capacitor is essential for suppressing voltage spikes on 6S power.
 *   **C. Continuity Check:** Use a multimeter to verify **NO continuity** between VBAT+ and GND-.
